@@ -1,0 +1,14 @@
+{
+  "name": "typescript",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js "
+  },
+  "dependencies": {
+    "@types/i18next": "^13.0.0",
+    "@types/node": "^20.8.6",
+    "i18next": "^23.5.1"
+  }
+}
